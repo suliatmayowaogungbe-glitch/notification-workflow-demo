@@ -29,7 +29,7 @@ jobs:
         run: echo "✅ Feature squash merged into main cleanly"
 
       - name: "Step 5 — CI/CD Deploy"
-        run: echo "🚀 Notification system pipeline triggered — changes are live!"
+        run: echo "Notification system pipeline triggered — changes are live!"
 
       - name: "Step 6 — Show repo contents"
         run: ls -la
