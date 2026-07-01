@@ -21,3 +21,8 @@
 - Email: sent immediately on trigger
 - SMS: sent immediately for OTP, batched for updates
 - Push: sent in real time, silenced between 10pm - 8am
+
+## Channel Status
+- Email: Active
+- SMS: Active
+- Push: Active
