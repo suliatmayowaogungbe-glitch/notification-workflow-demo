@@ -1,6 +1,5 @@
 # Notification System / Engineering Workflow Demo
 
-
 This project demonstrates a complete Git and GitHub engineering workflow using a notification system as the feature.
 
 ## Project Purpose
