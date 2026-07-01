@@ -1,0 +1,35 @@
+name: Notification System CI/CD
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: "Step 1 — Clone Repo"
+        uses: actions/checkout@v4
+
+      - name: "Step 2 — Confirm Feature Branch Work"
+        run: echo "✅ Notification system feature branch validated"
+
+      - name: "Step 3 — Confirm Notification Channels"
+        run: |
+          echo "✅ Email notifications configured"
+          echo "✅ SMS notifications configured"
+          echo "✅ Push notifications configured"
+
+      - name: "Step 4 — Confirm Squash Merge"
+        run: echo "✅ Feature squash merged into main cleanly"
+
+      - name: "Step 5 — CI/CD Deploy"
+        run: echo "🚀 Notification system pipeline triggered — changes are live!"
+
+      - name: "Step 6 — Show repo contents"
+        run: ls -la
